@@ -1,5 +1,7 @@
 <%=@recipes.each do |recipe|%>
-Name:<%=recipe.name%>
-Ingredients:<%=recipe.ingredients%>
-Cook Time:<%=recipe.cook_time%>
+<li>
+  Name:<%=recipe.name%>
+  Ingredients:<%=recipe.ingredients%>
+  Cook Time:<%=recipe.cook_time%>
+</li>
 <%end%>
